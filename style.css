@@ -1,0 +1,343 @@
+body{background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%), Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);}
+    ul{display:inline-block;
+
+    }
+ul li{
+    font-size: 25px;
+    display: inline;
+}
+ul li a{color:white ;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;text-transform:uppercase;padding:0 50px 0 100px ;}
+
+a:link{color: white;}
+a:hover{color:red;}
+#logo { background-color: white; display: inline-block;}
+#GIFF {background-image: url(../res/slider1.png);
+    text-align: center;
+    height: 400px;
+    background-position: center center;}
+.btn-view{ color: blue !important;font-family: Arial, Helvetica, sans-serif;text-decoration: none; padding: 30px; display: block; font-size: 30px; }
+/**courses {color:white ;font-size: 18px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform:uppercase;}*/
+    .photo1 {background-color: white; background-image: url("../res/img1.png");display: inline-block; width: 250px; height: 250px;}
+    .photo2 {background-color: white;background-image: url("../res/img2.png");display: inline-block;width: 250px; height: 250px;}
+    .photo3 {background-color: white;background-image: url("../res/img3.png");display: inline-block;width: 250px; height: 250px;}
+    #trait_dessus {margin-top: 80px; border-top: 1px solid #ffffff;  }
+
+    #vid{text-align: center;} 
+    #banner{background-image: url(../res/webdev3.png) ; width: 100%;
+        height: 450px;
+        padding: 50px;background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 87px;
+        box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+        box-sizing: border-box;}  
+        #banner h1{ font-size: 5em;
+            font-family: 'Bree Serif', serif;
+            color: #fff;
+            text-align: center;
+            top: 50%;margin-top: 120px;
+            text-shadow: 5px 2px rgb(12, 11, 11);}  
+            /* .image1 {background-color: white; background-image: url("../res/section3image1.png");display: inline-block; width: 250px; height: 250px;}
+             .image2 {background-color: white;background-image: url("../res/section3image2.png");display: inline-block;width: 250px; height: 250px;}
+             .image3 {background-color: white;background-image: url("../res/section3image3.png");display: inline-block;width: 250px; height: 250px;}    
+             .image4 {background-color: white; background-image: url("../res/section3image1.png");display: inline-block; width: 250px; height: 250px;}
+             .image5 {background-color: white;background-image: url("../res/section3image2.png");display: inline-block;width: 250px; height: 250px;}
+             .image6 {background-color: white;background-image: url("../res/section3image3.png");display: inline-block;width: 250px; height: 250px;}     
+             .image7 {background-color: white; background-image: url("../res/section3image1.png");display: inline-block; width: 250px; height: 250px;}
+             .image8 {background-color: white;background-image: url("../res/section3image2.png");display: inline-block;width: 250px; height: 250px;}
+             .image9 {background-color: white;background-image: url("../res/section3image3.png");display: inline-block;width: 250px; height: 250px;}  
+             */
+             .course1{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img1.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+               margin-top: 90px;
+            }
+            
+          .course1:hover #hoverbtn{
+              display: block;
+          }
+            .course1:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+           
+            .btnCourses1{
+                padding-top: 50px;
+                margin-top:120px;
+                display:none;
+                color: #fff;
+                background-color: transparent
+                           
+            }
+            
+            
+            .course2{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img2.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+            }
+            
+          .course2:hover #hoverbtn{
+              display: block;
+          }
+            .course2:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+            .btnCourses2{
+                margin-top:120px;
+                display:none;
+                
+            }
+            
+            
+            .course3{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img3.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+            }
+            
+          .course3:hover #hoverbtn{
+              display: block;
+          }
+            .course3:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+            .btnCourses3{
+                margin-top:120px;
+                display:none;
+                
+            }
+            
+            
+            
+            .course4{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img4.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+            }
+            
+          .course4:hover #hoverbtn{
+              display: block;
+          }
+            .course4:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+            .btnCourses4{
+                margin-top:120px;
+                display:none;
+                
+            }
+            
+            .course5{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img5.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+            }
+            
+          .course5:hover #hoverbtn{
+              display: block;
+          }
+            .course5:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+            .btnCourses5{
+                margin-top:120px;
+                display:none;
+                
+            }
+            
+            
+            .course6{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img6.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+            }
+            
+          .course6:hover #hoverbtn{
+              display: block;
+          }
+            .course6:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+            .btnCourses6{
+                margin-top:120px;
+                display:none;
+                
+            }
+            
+            .course7{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img7.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+            }
+            
+          .course7:hover #hoverbtn{
+              display: block;
+          }
+            .course7:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+            .btnCourses7{
+                margin-top:120px;
+                display:none;
+                
+            }
+            
+            .course8{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img8.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+            }
+            
+          .course8:hover #hoverbtn{
+              display: block;
+              margin-top: 120px;
+          }
+            .course8:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+            .btnCourses8{
+                margin-top:120px;
+                display:none;
+                
+            }
+            
+            .course9{
+                width:250px;
+                height:250px;
+                margin-left:50px;
+                display:inline-block;
+                background-image:url('../res/img9.png');
+                background-size: cover;
+                overflow:hidden;
+            
+            }
+            #hoverbtn{
+               display : none;
+            }
+            
+          .course9:hover #hoverbtn{
+              display: block;
+          }
+            .course9:hover{
+                background-color:black;
+                opacity: 0.5;
+            }
+            .btnCourses9{
+                margin-top:120px;
+                display:none;
+                
+            }
+            
+            
+          
+            #titre_courses {text-align: center;color: #fff;font-size: 25px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}       
+
+             #feedback {text-align: center;color: #fff;font-size: 25px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}       
+             #zonetext {
+                height: 100px
+                ; width: 600px;
+                border : 2px solid grey;
+                border-radius: 4px;
+            } 
+            .flexContent {
+               display:flex;
+               justify-content: center;
+               width: 70%;
+               border:solid;
+               justify-content: space-between;
+            }
+            .flexParent{
+                justify-content: center;
+                border:solid;
+                width:100vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom:5%;
+                margin-top:5%;
+
+            }
+            #contactForm>div>input{
+                width:250px;
+            }
+            #contactForm>div>select{
+                width:250px;
+            }
+
